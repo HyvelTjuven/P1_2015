@@ -21,9 +21,11 @@ void addQuotes(){
   //Write code to add 10 Quotes of your choise
 }
 
-
 /**Selects a random Qoute from myQuotes.*/
 String getQuote(){
+  for(int i=0; i<addQuotes.length; i++){
   //Write code to select a random quote
-  return "Test";
+  return "Test";  
+    return "randomQuote";
+  }
 }
